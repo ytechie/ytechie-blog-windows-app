@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTechie", "YTechie\YTechie.csproj", "{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|ARM.Build.0 = Debug|ARM
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|x64.ActiveCfg = Debug|x64
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|x64.Build.0 = Debug|x64
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|x64.Deploy.0 = Debug|x64
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|x86.ActiveCfg = Debug|x86
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|x86.Build.0 = Debug|x86
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Debug|x86.Deploy.0 = Debug|x86
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|ARM.ActiveCfg = Release|ARM
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|ARM.Build.0 = Release|ARM
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|ARM.Deploy.0 = Release|ARM
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|x64.ActiveCfg = Release|x64
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|x64.Build.0 = Release|x64
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|x64.Deploy.0 = Release|x64
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|x86.ActiveCfg = Release|x86
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|x86.Build.0 = Release|x86
+		{FB45C9E7-E243-43F5-80E6-DCCD4D48D8AA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

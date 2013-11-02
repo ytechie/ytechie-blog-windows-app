@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="YoungTechnologiesLLC.YTechieBlog" Publisher="CN=D1E7D820-A49D-46E8-AE32-877257A6B540" Version="1.1.0.1" />
+  <Properties>
+    <DisplayName>YTechie Blog</DisplayName>
+    <PublisherDisplayName>Young Technologies, LLC</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="YTechie.App">
+      <m2:VisualElements DisplayName="YTechie Blog" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="YTechie.com in an easy to use app! Jason Young covers software development topics such as C#, Node.js, Windows Azure, and Windows App development." ForegroundText="light" BackgroundColor="#464646" ToastCapable="false">
+        <m2:DefaultTile ShortName="YTechie Blog" Square310x310Logo="Assets\Square310x310Logo.jpg" Wide310x150Logo="Assets\Wide310x150Logo.jpg" DefaultSize="wide310x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="square310x310Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+        <m2:ApplicationView MinWidth="width500" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
