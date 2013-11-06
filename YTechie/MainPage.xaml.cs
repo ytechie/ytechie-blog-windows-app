@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using Windows.System;
+using Windows.UI.ApplicationSettings;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
