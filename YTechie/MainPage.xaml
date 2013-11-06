@@ -14,6 +14,31 @@
     
     <Page.BottomAppBar>
         <CommandBar>
+            <AppBarButton Icon="Back" Label="Back" Click="Back_Click"></AppBarButton>
+            <AppBarButton Icon="Forward" Label="Forward" Click="Forward_Click"></AppBarButton>
+            <AppBarSeparator></AppBarSeparator>
+            <AppBarButton Icon="Bullets" Label="Recent Posts" Name="RecentPosts">
+                <Button.Flyout>
+                    <MenuFlyout Opening="RecentPosts_Loading">
+                    </MenuFlyout>
+                    <!--<Flyout>
+                        <StackPanel Orientation="Vertical">
+                            <ItemsControl Name="RecentPosts" Loaded="RecentPosts_OnLoaded" ItemsSource="{Binding Posts}">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Vertical"></StackPanel>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock>asdfas</TextBlock>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Flyout>-->
+                </Button.Flyout>
+            </AppBarButton>
             <AppBarButton Name="HomeButton" Label="Home" Icon="Home" Click="HomeButton_OnClick"></AppBarButton>
             <AppBarButton Name="RefreshButton" Label="Refresh" Icon="Refresh" Click="RefreshButton_OnClick"></AppBarButton>
         </CommandBar>
