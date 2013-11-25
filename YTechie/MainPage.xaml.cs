@@ -101,11 +101,20 @@ namespace YTechie
                         menuItems[itemNumber].Text = feedItem.Title.Text;
                         menuItems[itemNumber].Visibility = Visibility.Visible;
 
+                        string linkUri;
+                        if (feedItem.Links.Count > 0)
+                        {
+                            linkUri = feedItem.Links[0].Uri.AbsoluteUri;
+                        }
+                        else
+                        {
+                            return;
+                        }
+
                         //We have to run this on the UI thread:
                         menuItems[itemNumber].Click += (sender, args) => Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                         {
-                            var url = feedItem.Id;
-                            WebViewControl.Navigate(new Uri(url));
+                            WebViewControl.Navigate(new Uri(linkUri));
                         });
                     }
                     itemNumber++;
